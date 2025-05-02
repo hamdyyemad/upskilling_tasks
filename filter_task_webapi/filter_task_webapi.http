@@ -1,0 +1,6 @@
+@filter_task_webapi_HostAddress = http://localhost:5013
+
+GET {{filter_task_webapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
