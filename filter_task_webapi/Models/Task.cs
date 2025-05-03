@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace filter_task_webapi.Models
 {
-    public class Task
+    public class TaskItem
     {
         [Key]
         public int TaskId { get; set; }
@@ -26,6 +26,6 @@ namespace filter_task_webapi.Models
 
         [ForeignKey("TeamMember")]
         public int MemberId { get; set; }
-        public TeamMember TeamMember { get; set; }
+        public TeamMember? TeamMember { get; set; }
     }
 } 

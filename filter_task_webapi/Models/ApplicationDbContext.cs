@@ -9,12 +9,12 @@ namespace filter_task_webapi.Models
         {
         }
 
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<TaskItem> Tasks { get; set; }
         public DbSet<TeamMember> TeamMembers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Task>()
+            modelBuilder.Entity<TaskItem>()
                 .HasOne(t => t.TeamMember)
                 .WithMany(m => m.Tasks)
                 .HasForeignKey(t => t.MemberId)

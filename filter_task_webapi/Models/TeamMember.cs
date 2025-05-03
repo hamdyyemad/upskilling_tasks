@@ -18,6 +18,6 @@ namespace filter_task_webapi.Models
         [StringLength(100)]
         public string Email { get; set; }
 
-        public ICollection<Task> Tasks { get; set; }
+        public ICollection<TaskItem>? Tasks { get; set; }
     }
 } 
