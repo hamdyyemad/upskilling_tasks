@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7pNztm/fwIJQHHORepxqwN+fETcLbnBOFfSIMoLtOj0=",
+  "Source": "upskilling_webapi_task",
+  "BasePath": "_content/upskilling_webapi_task",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

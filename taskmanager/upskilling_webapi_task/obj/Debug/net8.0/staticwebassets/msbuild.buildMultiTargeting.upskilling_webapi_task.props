@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\upskilling_webapi_task.props" />
+</Project>
